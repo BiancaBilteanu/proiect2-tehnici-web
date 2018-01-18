@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <title>Contact</title>   
+        <script src="script.js"></script>   
+    </head>
+    <body id="contact-background">
+        <main class="container-fluid">
+            <br><br>
+            <h1 class="title" id="contact-title">Contact</h1>              
+           <nav class = "navbar"> 
+                <a href="travelTheWorld.html" class="btn home" target="_blank">HOME</a>
+                    <div class="dropdown">
+                            <button class="dropbtn">FLIGHTS</button>
+                                <div class="dropdown-content" >
+                                    <div class="flight"><a href="Europe.html">EUROPE</a></div>
+                                    <div class="flight"><a href="USA.html">USA</a></div>
+                                </div>
+                        </div> 
+                <a href="CONTACT.html" class="btn contact">CONTACT</a>    
+                <input class="search" type="text" name="search" placeholder="Search..">
+                    </nav>
+            <br>  
+        
+            <div class="blue-color">
+                <!--Facebook-->
+                <i class="fa fa-facebook-square"></i>
+                <a href= "https://web.facebook.com/bianca.bilteanu" target="_blank">Facebook </a>
+                <!--LinkedIN-->
+                <i class="fa fa-linkedin-square"></i>
+                <a href="https://ro.linkedin.com/in/mihaela-bianca-bilteanu-607034116" target="_blank">LinkedIN</a>   
+                <!--Instagram-->
+                <i class="fa fa-instagram"></i>
+                <a href="https://www.instagram.com/biancabilteanu/" target="_blank">Instagram</a>
+                <!--Pinterest-->
+                <i class="fa fa-pinterest-square"></i>
+                <a href="https://ro.pinterest.com/bbilteanu/" target="_blank">Pinterest</a>
+            </div>
+        </nav>
+            <form id="contactForm">
+                <i style="color:white ">First name*: <input type="text" id="firstName" required name="firstName" ></i><br>
+                <i style="color:white">Last name*: <input type="text" id="lastName" required name="lastName"></i><br>
+                <i style="color:white">Email*: <input type="text" id="email" required name="email"></i><br>
+                <p style="color:white">Subject: <input type="text" id="subject" name="subject"></p>
+                <p style="color:white">Your message: <textarea id="message" name="message"></textarea></p>           
+                <p><input type="checkbox" checked> 
+                I agree with the 
+                    <a href="#" target="_blank">
+                terms and conditions</a>. </p>
+                <button type="button" id="trimiteFormular" style="background-color: #00B7FF; color:white"><i class="fa fa-paper-plane"></i>Send</button>
+            </form> 
+           
+            <br>
+
+            <ul id="comentarii"></ul>
+        </main>
+        
+    </body>
+</html>
